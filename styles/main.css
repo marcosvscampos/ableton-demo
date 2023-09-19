@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root {
+    --interaction-color: #0000ff;
+    --highligh-color: #ff764d; 
+    --section-separator-color: #bbc1cc;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+}
+
+.text-small {
+    font-size: 0.6em;
+}
+
+.container__flex {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.container__grid {
+    display: grid;
+}
+
+.main__presentation__banner {
+    background-image: url('../assets/images/about-main-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1150px;
+    height: 580px;
+}
+
+.main__presentation__banner__title {
+    font-size: 8em;
+    color: var(--highligh-color);
+    padding: 50px 0;
+    font-weight: 700;
+}
+
+.main__presentation__text {
+    text-align: start;
+    font-size: 2em;
+    padding: 80px 300px;
+}
+
+.main__presentation__text-description {
+    margin: 30px;
+}
