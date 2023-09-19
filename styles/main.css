@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style-type: none;
+    box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
@@ -11,6 +12,10 @@
     --interaction-color: #0000ff;
     --highligh-color: #ff764d; 
     --section-separator-color: #bbc1cc;
+    --background-aquamarine: #2cf6b3;
+    --background-penn-red: #92140c;
+    --background-mindaro: #fffc99;
+      
 }
 
 body {
@@ -53,12 +58,34 @@ body {
     font-weight: 700;
 }
 
-.main__presentation__text {
+.presentation__text {
     text-align: start;
     font-size: 2em;
     padding: 80px 300px;
 }
 
-.main__presentation__text-description {
+.presentation__text-description {
     margin: 30px;
+}
+
+.presentation__image-showcase {
+    gap: 100px;
+} 
+
+.presentation__image-medium {
+    background-image: url('../assets/images/music-deck-second-section-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 550px;
+    height: 650px;
+}
+
+.presentation__image-small {
+    background-image: url('../assets/images/server-office-girl.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 550px;
+    height: 350px;
 }
